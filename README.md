@@ -1,1 +1,1 @@
-# Programa-de-IVA-Descuentos-y-de-Promedios
+Programas simples hechos en consola con RUBY, permiten calcular IVA, Descuentos y Promedios de los elementos que deseemos ingresar.
