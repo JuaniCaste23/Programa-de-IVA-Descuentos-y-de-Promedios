@@ -28,6 +28,14 @@ class Promedios
         materia=gets.chomp.to_s
         return materia
     end
+
+    def imprimir
+        puts"Materias Ingresadas:"
+        @calificaciones.each do |materia,nota|
+            puts"--> #{materia} = #{nota}"
+        end
+        puts
+    end
            
     def mayus(materia)
         i=0
@@ -70,6 +78,7 @@ class Promedios
         if(control=="No" or control=="N" or control=="n" or control=="NO")
             return true
         else
+            imprimir
             return false
         end
     end
